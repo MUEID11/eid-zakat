@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero-area{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.5)),url(images/1.jpg);
+    background-size:cover;
+    background-position: center;
+    position:relative;
+    overflow: hidden;
+    
+}
+.content{
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+.content h1{
+    font-size: 80px;
+    line-height: 100px;
+}
+.content P{
+    margin: 30px 0 50px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+    Vertical-align: Top;
+}
+.dbutton{
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 12px 20px;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+.dbutton:hover{
+    background-color: #6A4998;
+    transition: 0.5s;
+}
+main{
+    margin:auto;
+    margin-top: 50px;
+    width: 80%;
+    height: 100vh;
+}
+.textimage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.textwithimage h2{
+    font-size: 50px;
+    line-height: 70px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.textwithimage p{
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.textwithimage a{
+    font-size: 18px;
+    background: transparent;
+    padding: 12px 20px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+.textwithimage a:hover{
+    background-color: #6A4998;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.firstimage{
+    width: 620px;
+    border-radius: 5px;
+    margin-top: 100px; 
+    margin-left: 280px;
+}
+.secondimage{
+    width: 620px;
+    border-radius: 5px;
+    margin-top: 100px; 
+    margin-right: 280px;
+}
+.textwithboxs{
+    margin-top: 150px;
+}
+.textwithboxs h2{
+    font-size:50px;
+    text-align: center;
+}
+.textwithboxs p{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 40px;
+    color: #373737;
+}
+.textbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.textbox2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.boxs{
+    position: relative;
+    margin: 0px 20px 0px 20px;
+    padding: 20px;
+    width: 450px;
+    height: 225px;
+    background-color: #dbc9fbbb;
+    border-radius: 10px;
+    text-align: center;
+}
+.onlyimages{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.onlyimages img{
+    width: 500px;
+    border-radius: 10px;
+}
