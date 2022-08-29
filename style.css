@@ -153,6 +153,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: auto;
     
 }
 .zakat-images-texts{
