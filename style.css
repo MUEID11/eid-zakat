@@ -133,9 +133,10 @@ main{
     text-align: center;
 }
 .onlyimages{
+    position: relative;
     margin-top: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -143,6 +144,7 @@ main{
     width: 480px;
     height: 500px;
     border-radius: 10px;
+    
     
 }
 .last-section{
