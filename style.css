@@ -136,11 +136,13 @@ main{
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
+    
 }
 .onlyimages img{
     width: 500px;
-    height: 500px;
+    height: 450px;
     border-radius: 10px;
+    
 }
 .last-section{
     margin-top: 100px;
